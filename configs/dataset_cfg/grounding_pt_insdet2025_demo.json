@@ -1,0 +1,20 @@
+{
+  "train": [
+    {
+      "root": "your_path/datas/InstDet_demo/images_train/",
+      "anno": "your_path/datas/InstDet_demo/annotations/instances_train.json",
+      "data_name": "coco_val2017",
+      "data_type": "det",
+      "anno_protocol": "coco"
+    }
+  ],
+  "val": [
+    {
+      "root": "your_path/datas/InstDet_demo/images_val/",
+      "anno": "your_path/datas/InstDet_demo/annotations/instances_val.json",
+      "data_name": "InsDet2025",
+      "data_type": "det",
+      "anno_protocol": "coco"
+    }
+  ]
+}
